@@ -1,0 +1,119 @@
+@media screen and (max-width:319px) { /* iPhone 1-5 */
+
+	.viewport {
+		position: fixed;
+		top: auto;
+		bottom: 0px;
+		left: 0px;
+		right: auto;
+		background: #000;
+		color: #fff;
+		padding: 10px;
+		line-height: 1em;
+		z-index: 999999999999999;
+		font-size: 0.75rem;
+		opacity: 1;
+		transition: all .4s ease;
+	}
+
+	.viewport::after {
+		content: "Viewport 0-319px";
+	}
+
+}
+
+@media screen and (min-width:320px) { /* iPhone 6 */
+
+	.viewport {
+		position: fixed;
+		top: auto;
+		bottom: 0px;
+		left: 0px;
+		right: auto;
+		background: #000;
+		color: #fff;
+		padding: 10px;
+		line-height: 1em;
+		z-index: 999999999999999;
+		font-size: 0.75rem;
+		opacity: 1;
+		transition: all .4s ease;
+	}
+
+	.viewport::after {
+		content: "Viewport 320px";
+	}
+
+}
+
+@media screen and (min-width:375px) { /* iPhone 6 */
+
+	.viewport::after {
+		content: "Viewport 375px";
+	}
+
+}
+
+@media screen and (min-width:414px) { /* iPhone 6+ */
+
+	.viewport::after {
+		content: "Viewport 414px";
+	}
+
+}
+
+@media screen and (min-width:600px) { /* Tablet 7" portrait */
+
+	.viewport::after {
+		content: "Viewport 600px";
+	}
+
+}
+
+@media screen and (min-width:768px) { /* iPad portrait */
+
+	.viewport::after {
+		content: "Viewport 768px";
+	}
+
+}
+
+@media screen and (min-width:900px) { /* Tablet 7" landscape */
+
+	.viewport::after {
+		content: "Viewport 900px";
+	}
+
+}
+
+@media screen and (min-width:1024px) { /* iPad" landscape */
+
+	.viewport::after {
+		content: "Viewport 1024px";
+	}
+
+}
+
+@media screen and (min-width:1140px) { /* TV */
+
+	.viewport::after {
+		content: "Viewport 1140px";
+	}
+
+}
+
+@media screen and (min-width:1280px) { /* TV */
+
+	.viewport::after {
+		content: "Viewport 1280px";
+	}
+
+}
+
+@media screen and (min-width:1440px) { /* TV */
+
+	.viewport::after {
+		content: "Viewport 1440px";
+	}
+
+}

@@ -1,0 +1,192 @@
+/* Global */
+
+html {
+	width: 100%;
+	height: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	outline: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font: 25px/30px 'Gotham-book', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	background: $main;
+	color: #fff;
+}
+
+h1,h2,h3,h4,h5 {
+	margin-bottom: 0.6em;
+	line-height: 1.1em;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.8em;
+	font-family: 'Gotham-Light';
+}
+
+h2 {
+	font-size: 2.5em;
+	font-family: 'Gotham-Light';
+}
+
+h3 {
+	font-size: 1.8em;
+	font-family: 'Gotham-Medium';
+}
+
+h4 {
+	font-size: 1.5em;
+	font-family: 'Gotham-Bold';
+}
+
+h5 {
+	font-size: 1.2em;
+	font-family: 'Gotham-Bold';
+}
+
+b,
+strong {
+	font-family: 'Gotham-Bold';
+}
+
+em {
+	font-family: 'Gotham-BookItalic';
+}
+
+small {
+	font-size: 0.85em;
+}
+
+cite {
+	font-family: 'Gotham-BookItalic';
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+
+iframe,
+video {
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+hr {
+	margin: 25px 0;
+	border: 0;
+	height: 0px;
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
+	margin-left: 37px;
+}
+
+p,
+ul,
+ol,
+hr,
+img,
+iframe,
+.fluid-width-video-wrapper {
+	margin-bottom: 15px;
+}
+
+p:last-child,
+ul:last-child,
+ol:last-child,
+hr:last-child,
+img:last-child,
+iframe:last-child {
+	margin-bottom: 0px;
+}
+
+body.mobile::after,
+body.desktop::after {
+	content: "body.mobile";
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background: $main;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 1em;
+}
+
+body.mobile::after {
+	content: "body.mobile";
+}
+
+body.desktop::after {
+	content: "body.desktop";
+}
+
+.container {
+	padding: 10% 10% 20% 10%;
+}
+
+h1 {
+	line-height: 1em;
+}
+
+h1 span {
+	font-family: 'Gotham-Bold';
+	font-weight: normal;
+}
+
+h1 small {
+	font-family: 'Gotham-Book';
+	font-weight: normal;
+	font-size: 0.5em
+}
+
+h3 {
+	font-family: 'Gotham-Medium';
+	font-weight: normal;
+	font-size: 1.4em;
+	margin-bottom: 1.2em;
+}
+
+.logo {
+	padding: 5px;
+	margin-bottom: 15px !important;
+}
