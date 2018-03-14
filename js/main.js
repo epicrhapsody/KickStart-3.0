@@ -12,5 +12,24 @@ $(document).ready(function(){
              $('body').removeClass('mobile').addClass('desktop');
          }
      });
+
+     $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            // do stuff
+        } else {
+            // do other stuff
+        }
+    });
+
+    $("").on('touch click', function(){
+        var $this = $("");
+        if ($this.hasClass("inactive")) {
+            // do stuff
+        }
+        else {
+            // do other stuff
+        }
+    });
+
  });
  
