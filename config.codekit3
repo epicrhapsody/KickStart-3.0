@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/.editorconfig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.editorconfig",
-		"oF": 0
-		},
 	"\/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
@@ -28,13 +21,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/.gitignore",
-		"oF": 0
-		},
-	"\/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.htaccess",
 		"oF": 0
 		},
 	"\/browserconfig.xml": {
@@ -709,7 +695,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 542275851,
-	"displayValue": "KickStart 3",
+	"displayValue": "KickStart3",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl"
 	},
